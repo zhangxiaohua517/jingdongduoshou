@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>京东剁手党</title>
+    <!--重置样式表-->
+    <link rel="stylesheet" href="css/reset.min.css">
+    <!-- swiper插件提供的样式表 -->
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <!-- animate动画库提供的样式表 -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- 自定义的样式表 -->
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<section class="main">
+
+<div class="swiper-container">
+    <div class="music" id="musicMenu">
+        <audio src="audio/music.mp3" preload="none" loop id="musicAudio"></audio>
+    </div>
+    <div class="swiper-wrapper">
+        <div class="swiper-slide page1" >
+            <div class="text">
+                <div class="text01"></div>
+                <div class="text02"></div>
+                <div class="text03"></div>
+                <div class="text04"></div>
+            </div>
+            <div class="tuzhang"></div>
+        </div>
+
+        <div class="swiper-slide page2" >
+            <div class="bg"></div>
+            <div class="text1">
+                <span></span>
+                <span></span>
+            </div>
+            <div class="text2">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="knife"></div>
+            <div class="hand"></div>
+        </div>
+
+        <div class="swiper-slide page3" >
+            <div class="bg"></div>
+            <div class="circle"></div>
+            <div class="text"></div>
+            <div class="people">
+                <div class="renwu01"></div>
+                <div class="renwu02"></div>
+                <div class="renwu03"></div>
+                <div class="renwu04"></div>
+            </div>
+            <div class="btns"></div>
+
+        </div>
+    </div>
+</div>
+<div class="arrow"></div>
+
+</section>
+<!--注意引入脚本的顺序-->
+
+<script src="js/swiper.min.js"></script>
+<script src="js/index.js"></script>
+
+<!--<script>-->
+    <!--var mySwiper = new Swiper ('.swiper-container', {-->
+        <!--direction: 'vertical', // 垂直切换选项-->
+        <!--loop: true, // 循环模式选项-->
+
+    <!--})-->
+<!--</script>-->
+</body>
+</html>
